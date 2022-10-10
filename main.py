@@ -1,4 +1,4 @@
-import random#pozdro
+import random
 import string
 from importlib.metadata import files
 from tkinter import *
