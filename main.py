@@ -59,7 +59,7 @@ def new_rand():
         if len(password) > 1:
             if password[i] == password[i - 1]:
                 print("zduplikowane: ", password[i], password[i - 1])
-                del password[i}
+                del password[i]
                 i -= 1
 
     received_pass.insert(0, list_to_string(password))
